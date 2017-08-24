@@ -1,0 +1,40 @@
+{
+  "name": "rtlips-server",
+  "homepage": "https://github.com/reelyactive/rtlips-server/",
+  "author": "reelyActive <webdev@reelyactive.com>",
+  "description": "Real-Time Location & Indoor Positioning System server.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "RTLS",
+    "IPS"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "./lib/server.js",
+  "bin": {
+    "rtlips-server": "./bin/rtlips-server"
+  },
+  "scripts": {
+    "start": "node bin/rtlips-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/rtlips-server.git"
+  },
+  "dependencies": {
+    "express": ">=4.0.0",
+    "path": ">=0.12.7",
+    "body-parser": ">=1.17.2",
+    "socket.io": ">=2.0.3"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/rtlips-server/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
