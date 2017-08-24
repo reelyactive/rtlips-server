@@ -27,7 +27,8 @@
     "express": ">=4.0.0",
     "path": ">=0.12.7",
     "body-parser": ">=1.17.2",
-    "socket.io": ">=2.0.3"
+    "socket.io": ">=2.0.3",
+    "socket.io-client": ">=2.0.3"
   },
   "devDependencies": {},
   "bugs": {
