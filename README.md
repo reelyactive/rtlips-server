@@ -23,7 +23,7 @@ const rtlipsServer = require('rtlips-server');
 
 const options = { /* See options */ };
 
-var app = new rtlips(options);
+var app = new rtlipsServer(options);
 
 // Connect to Pareto websocket (requires token)
 app.connect('https://pareto.reelyactive.com',
